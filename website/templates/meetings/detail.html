@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <title>{{meeting.title}}</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script scr="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery/min.js"></script>
+    <script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1> {{meeting.title}}</h1>
+    <div class="row">
+        <div class="col-md-12" style="background-color:#879F49"></div>
+
+    </div>
+
+<div class="card card-image" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFR3yKauo7XzfxvFLnE77Zn741KmMK8o1J4qH_1qyHiuCZQtlJ&usqp=CAU);">
+
+    <!-- Content -->
+    <div class="text-white text-center d-flex align-items-center red-black-strong py-5 px-4">
+        <div>
+            <h5 class="pink-text"><i class="fas fa-chart-pie"></i> </h5>
+            <h3 class="card-title pt-2"><strong></strong></h3>
+            <p><br>
+            <h2>DETAIL</h2><br>
+            <br>
+            <br>          <br>
+                <br>
+                <br>
+
+<p>
+            <h3>This meeting has been scheduled on {{meeting.date}}, at {{meeting.start_time}} in<strong> {{ meeting.room}} </strong></h3>
+
+
+                <br><br>
+                <br>
+                <br>
+            </p>
+            <h6>  <a class="btn btn-lg btn-info" href="{% url 'index' %}" role="button">&laquo; Home </a></h6>
+
+
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- Content -->
+</div>
+</div>
+<!-- Card --></body>
+</html>
+
+
+
+
+
